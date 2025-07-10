@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.logo{
+    width: 8vw;
+    height: auto;
+    transform: translate(-38vw, -16vh);
+    position: absolute;
+}
+
+body {
+    background-color: #c4cbff;
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+}
+
+.wrapper{
+    width: 60vw;
+    height: 50vh;
+    background: #5e6060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+
+.signin{
+margin-bottom: 5%;
+text-align: center;
+font-size: 2.5vh;
+color: #fff39d;
+
+
+
+}
+
+.field{
+    margin-bottom: 10px;
+border-radius: 8px;
+border-style: none;
+border: 0px;
+    width: 30em;
+    height: 40px;
+    background-color: #f6f7ce;
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: #5e6066;
+    padding-left: 0px;
+    font-size: 9px;
+    text-transform: uppercase;
+
+}
+.rem{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ededed;
+
+}
+.doyou{
+    margin-top: 5px;
+    font-size: 11px;
+    color: #afaeae;
+}
+.loginbtn{
+    margin-top: 20px;
+    text-align: center;
+}
+.login{
+    width: 150px;
+    height: 50px;
+    background-color: #5e6066;
+    border: 2px;
+    border-color: #fff39d;
+    border-style: solid;
+    border-radius:8px ;
+    color: #f6f7ce;
+    font-size: 15px;
+    transition: 0.4s;
+    display: inline-block;   
+}
+
+
+
+
+.login:hover{
+    background-color :#f6f7ce;
+    color: #5e6066; 
+}
+
+.doyou,.rem{
+    margin-left: 10px;
+}
+#chck{
+accent-color: #f6f7ce;
+vertical-align:text-top;
+margin-right: 5px;
+}
+.resethref,.createhref{
+    color: #fff39d;
+    margin-left: 5px;
+}
+
+
+
+
